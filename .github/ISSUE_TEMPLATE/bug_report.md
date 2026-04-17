@@ -1,38 +1,55 @@
 ---
-name: Bug report
-about: Create a report to help us improve
-title: ''
-labels: ''
+name: 🚨 Bug Report | System Malfunction
+about: Report a technical issue to help us maintain protocol stability.
+title: '[BUG] <Short Description of Issue>'
+labels: 'bug, internal-triage'
 assignees: ''
 
 ---
+<br>
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+> [!IMPORTANT]
+> **Priority Check:** Before submitting, please verify if this issue persists in the latest stable release. Ensure all environment dependencies and configurations are synchronized with the core project specifications.
+<br>
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+### 🔬 Technical Overview
+Provide a clear and concise description of the observed behavior. Focus on the logic failure or performance bottleneck.
+<br>
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+### 🛠 Reproduction Pipeline
+Steps to trigger the exception/fault:
+1. Initialize the environment/platform.
+2. Execute the specific action or input '....'
+3. Observe the system state at '....'
+4. Identify the point of failure or unexpected output.
+<br>
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+### 🎯 Expected Architecture
+Describe the structural integrity or behavior you expected from the system.
+<br>
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+### 🖼 Visual Trace (Logs/Screenshots)
+If applicable, attach high-fidelity screenshots, terminal outputs, or stack traces to clarify the diagnostic path.
+<br>
 
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
+### 💻 Environment Specifications
+<br>
 
-**Additional context**
-Add any other context about the problem here.
+> [!WARNING]
+> Inaccurate environment data can lead to false diagnostic leads. Please be precise about the platform where the issue occurred.
+<br>
+
+**System/Server:**
+ - OS: [e.g., Fedora, Ubuntu, Windows]
+ - Version/Build: [e.g., v1.0.2]
+ - Runtime/Environment: [e.g., Node.js, Python, Docker, etc.]
+<br>
+
+**Client-side (if applicable):**
+ - Device: [e.g., iPhone 15, PC]
+ - OS: [e.g., iOS 17, Android 14]
+ - Browser/App: [e.g., Chrome, Safari, Native App]
+<br>
+
+### 🔗 Additional Context & Metadata
+Add any other relevant context, configuration snippets, or network logs that might assist in resolving the issue.
